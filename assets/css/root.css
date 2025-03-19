@@ -1,0 +1,116 @@
+:root {
+    /* ----------------font-color--------- */
+    --light-orange: #E58E1A;
+    --white-color: #FFFFFF;
+    --black-color: #0E0E0E;
+
+
+    /* ----------------font-size--------- */
+    --text-default: 15px;
+    --text-base: 16px;
+    --text-sm: 18px;
+    --text-md: 24px;
+    --text-lg: 28px;
+    --text-xl: 32px;
+    --text-2xl: 40px;
+    --text-3xl: 48px;
+
+
+
+
+}
+
+.fs-16 {
+    font-size: var(--text-base);
+}
+
+.fs-18 {
+    font-size: var(--text-sm);
+}
+
+.fs-24 {
+    font-size: var(--text-md);
+}
+
+.fs-28 {
+    font-size: var(--text-lg);
+}
+
+.fs-32 {
+    font-size: var(--text-xl);
+}
+
+.fs-40 {
+    font-size: var(--text-2xl);
+}
+
+.fs-48 {
+    font-size: var(--text-3xl);
+}
+
+.fs-15 {
+    font-size: var(--text-default);
+}
+
+.fc-light-orange {
+    color: var(--light-orange);
+}
+
+.bg-light-orange {
+    background: var(--light-orange);
+}
+
+.fc-white {
+    color: var(--white-color);
+}
+
+.bg-white {
+    background: var(--white-color);
+}
+
+.fc-black {
+    color: var(--black-color);
+}
+
+.bg-black {
+    background: var(--black-color);
+}
+
+@media(max-width:991.98px) {
+    :root {
+        --text-default: 13px;
+        --text-base: 14px;
+        --text-sm: 14px;
+        --text-md: 20px;
+        --text-lg: 26px;
+        --text-xl: 30px;
+        --text-2xl: 38px;
+        --text-3xl: 45px;
+    }
+}
+
+@media(max-width:767.98px) {
+    :root {
+        --text-default: 10px;
+        --text-base: 12px;
+        --text-sm: 12px;
+        --text-md: 18px;
+        --text-lg: 22px;
+        --text-xl: 28px;
+        --text-2xl: 35px;
+        --text-3xl: 40px;
+    }
+}
+
+@media(max-width:575.98px) {
+    :root {
+        --text-default: 7px;
+        --text-base: 10px;
+        --text-sm: 10px;
+        --text-md: 16px;
+        --text-lg: 20px;
+        --text-xl: 25px;
+        --text-2xl: 32px;
+        --text-3xl: 38px;
+    }
+}
