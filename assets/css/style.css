@@ -22,7 +22,7 @@
  .fw-700 {
      font-weight: 700;
  }
- 
+
  /* ------liine-height---------- */
  .lh-19 {
      line-height: 19px;
@@ -218,58 +218,77 @@
      margin-bottom: 80px;
  }
 
- .images-text {
-     right: 70px;
-     bottom: 90px;
+ .pb-80 {
+     padding-bottom: 80px;
  }
 
- .image-btn {
-     padding: 12px 20px;
-     margin-left: 130px;
+ .pt-148 {
+     padding-top: 148px;
  }
 
- .gap-8 {
-     gap: 8px;
+ .h-863 {
+     height: 863px;
  }
 
- .mt-147 {
-     margin-top: 147px;
+ .truck-img {
+     left: 0%;
+     max-width: 635px;
+     max-height: 627px;
+     filter: grayscale(100%);
+     opacity: 50%;
+     transition: all 200ms linear;
  }
 
- .section-2-box:hover {
-     .logo-name {
-         filter: brightness(50%);
-         background: #0E0E0E4D;
-         transition: all 200ms linear;
-         transform: scale(1.1);
+ .section-2-card:hover .truck-img {
+     filter: grayscale(0%);
+     opacity: 100%;
+ }
+
+ .section-2-card {
+     transition: all 200ms linear !important;
+     cursor: pointer;
+ }
+
+ .jcb-img {
+     right: 0%;
+     max-width: 635px;
+     max-height: 627px;
+     filter: grayscale(100%);
+     transition: all 200ms linear;
+     opacity: 50%;
+ }
+
+
+
+ .section-2-card:hover .jcb-img {
+     filter: grayscale(0%);
+     opacity: 100%;
+ }
+
+ .max-w-390 {
+     max-width: 390px;
+ }
+
+ .mb-12 {
+     margin-bottom: 12px;
+ }
+
+ .common {
+     text-align: right;
+ }
+
+ .explore-btn-2 {
+     padding: 14px 23.5px;
+     border-radius: 6px;
+ }
+
+ .explore-btn-2:hover {
+     background-color: var(--white-color);
+     color: var(--light-orange) !important;
+
+     svg path {
+         stroke: var(--light-orange);
      }
- }
-
- .section-2-box:hover {
-     .logo-name-1 {
-         opacity: 100%;
-         background: #0E0E0E4D;
-         transition: all 200ms linear;
-         transform: scale(1.1);
-     }
- }
-
- .logo-name-1 {
-     transition: 0.3s ease-in-out;
- }
-
- .section-2-box:hover .sec-2-box {
-     right: 60px;
-     bottom: 90px;
- }
-
- .section-2-box:hover .box-text {
-     display: block !important;
- }
-
- .image-container {
-     margin-top: 147px;
-     margin-bottom: 80px;
  }
 
  /* < !-- ----------------section-2------------- --> */
@@ -312,7 +331,7 @@
  .pt-100 {
      padding-top: 100px;
  }
-
+/* 
  .square {
      width: 328px;
      height: 312px;
@@ -364,8 +383,46 @@
      width: 100%;
      height: 100%;
      object-fit: cover;
- }
+ } */
+.mb-32,
+.mb_32 {
+    margin-bottom: 32px;
+}
 
+.square-box {
+    width: 328px;
+    height: 312px;
+    background: #E58E1A;
+    right: 0;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.max-w-290 {
+    max-width: 290px;
+}
+
+.max-w-496 {
+    max-width: 496px;
+}
+
+.max-h-320 {
+    max-height: 320px;
+}
+
+.max-h-407 {
+    max-height: 407px;
+}
+
+.max-h-250 {
+    max-height: 250px;
+}
+
+.max-h-477 {
+    max-height: 477px;
+}
  .mt-32 {
      margin-top: 32px;
  }
@@ -412,12 +469,11 @@
      border: none;
      background: var(--white-color);
  }
-input::placeholder{
+
+
+input::placeholder,
+textarea::placeholder {
     color: var(--black-color);
-    font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-        padding: 16px;
 }
  .form-about {
      border-radius: 4px;
@@ -429,13 +485,8 @@ input::placeholder{
      height: 152px;
      background: var(--white-color);
  }
- textarea::placeholder{
-    color: var(--black-color);
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 26px;
-        padding: 16px;
- }
+
+ 
 
  .mb-30 {
      margin-bottom: 30px;
@@ -602,35 +653,13 @@ input::placeholder{
          margin-top: 22px;
      }
 
-     .section-2-box:hover .sec-2-box {
-         right: 20px;
-         bottom: 20px;
-     }
-
-     .image-btn {
-         padding: 12px;
-     }
 
      .py-100 {
          padding-top: 70px;
          padding-bottom: 70px;
      }
 
-     .footer-main {
-         flex-direction: column;
-         text-align: center;
-     }
-
-     .footer-social {
-         display: flex;
-         align-items: center;
-         gap: 10px;
-     }
-
-     .footer-links,
-     .footer-contact {
-         text-align: center;
-     }
+    
  }
 
  @media(max-width:768px) {
@@ -658,24 +687,7 @@ input::placeholder{
          line-height: 24px;
      }
 
-     .square {
-         width: 100px;
-         height: 100px;
-     }
-
-     .image-container {
-         margin: 30px;
-     }
-
-     .section-2-box:hover .sec-2-box {
-         right: 0px;
-         bottom: 0px;
-     }
-
-     .image-btn {
-         padding: 8px;
-     }
-
+    
      .gap-8 {
          gap: 2px;
      }
@@ -690,193 +702,18 @@ input::placeholder{
          padding: 15px;
      }
 
-     .image-container {
-         margin: 16px;
-     }
-
+    
      .py-100 {
          padding-top: 50px;
          padding-bottom: 50px;
      }
 
-     .footer-main {
-         flex-direction: column;
-         align-items: center;
-         text-align: center;
-     }
-
-     .footer-social {
-         flex-direction: row;
-         gap: 10px;
-     }
-
-     .footer-links {
-         display: flex;
-         flex-direction: row;
-         gap: 10px;
-         justify-content: center;
-     }
-
-     .footer-contact {
-         display: flex;
-         flex-direction: column;
-         gap: 5px;
-         text-align: center;
-     }
+    
  }
 
- @media(max-width:420px) {
-     .square {
-         width: 100px;
-         height: 100px;
-     }
- }
-
- @media (min-width: 1024px) {
-     .grid-container {
-         grid-template-columns: 290px 496px 290px;
-         grid-template-rows: auto;
-     }
- }
-
- /* Ensure images fit inside the grid */
- .grid-container img {
-     width: 100%;
-     height: 100%;
-     object-fit: cover;
- }
-
- /* ✅ Tablet View (max-width: 1024px) - 2 Columns */
- /* @media (max-width: 1024px) {      .grid-container {          grid-template-columns: repeat(3, minmax(290px, 3fr));          gap: 20px;      }  } */
- /* ✅ Mobile View (max-width: 768px) - 1 Column */
- /* @media (max-width: 768px) {      .grid-container {          grid-template-columns: 3fr;          gap: 15px;      }} */
- 
  
 
- */ .grid {
-     max-width: 1140px;
-     margin-left: auto;
-     margin-right: auto;
-     /* background-color: aqua; /                           width: 100%;                           / height: 759px; */
-     background-color: green;
-     display: flex;
-     gap: 24px;
- }
 
- .first-col {
-     max-width: 320px;
-     width: 100%;
-     min-height: 755px;
-     background-color: green;
-     display: flex;
-     flex-direction: column;
-     gap: 24px;
- }
-
- .second-col {
-     max-width: 496px;
-     width: 100%;
-     min-height: 755px;
-     background-color: green;
-     display: flex;
-     flex-direction: column;
-     gap: 24px;
- }
-
- .third-col {
-     max-width: 290px;
-     width: 100%;
-     min-height: 755px;
-     background-color: green;
-     display: flex;
-     flex-direction: column;
-     gap: 24px;
- }
-
- .a-div {
-     width: 100%;
-     min-height: 320px;
-     background-color: black;
- }
-
- .b-div {
-     width: 100%;
-     min-height: 407px;
-     background-color: black;
- }
-
- .c-div {
-     width: 100%;
-     min-height: 407px;
-     background-color: black;
- }
-
- .d-div {
-     width: 100%;
-     min-height: 320px;
-     background-color: black;
- }
-
- .e-div {
-     width: 100%;
-     min-height: 250px;
-     background-color: black;
- }
-
- .f-div {
-     width: 100%;
-     min-height: 477px;
-     background-color: black;
- }
-
-
-
- /* .our-line {
-     width: 30px;
-     border: 2px solid var(--light-orange);
- } */
-
- .mb-32,
- .mb_32 {
-     margin-bottom: 32px;
- }
-
- .square-box {
-     width: 328px;
-     height: 312px;
-     background: #E58E1A;
-     right: 0;
- }
-
- .pb-100 {
-     padding-bottom: 100px;
- }
-
- .max-w-290 {
-     max-width: 290px;
- }
-
- .max-w-496 {
-     max-width: 496px;
- }
-
- .max-h-320 {
-     max-height: 320px;
- }
-
- .max-h-407 {
-     max-height: 407px;
- }
-
- .max-h-250 {
-     max-height: 250px;
- }
-
- .max-h-477 {
-     max-height: 477px;
- }
-
- /***** contact *****/
  .bg-img-2 {
      background-image: url(../imgaes/png/contact-section-bg-img.png);
      background-repeat: no-repeat;
@@ -934,10 +771,12 @@ input::placeholder{
  textarea::placeholder {
      color: var(--color-black-sheep);
  }
+
  @media (max-width:345.98px) {
      .square-box {
          display: none;
-     }}
+     }
+ }
 
 
 
@@ -981,524 +820,429 @@ input::placeholder{
 
 
 
-         @media (max-width:991.98px) {
-             .nav-link {
-                 display: flex !important;
-                 flex-direction: column;
-                 background-color: black !important;
-                 width: 100%;
-                 min-height: 100vh;
-                 position: fixed;
-                 justify-content: center;
-                 bottom: 0;
-                 right: -100% !important;
-                 top: 0%;
-                 transition: all 300ms linear !important;
-                 z-index: 5;
-             }
-    
-             .show-navbar {
-                 right: 0 !important;
-             }
-    
-             .lh-43 {
-                 line-height: normal;
-             }
-    
-             .lh-34 {
-                 line-height: normal;
-             }
-    
-             .mb-42 {
-                 margin-bottom: 0 !important;
-             }
-    
-             .w_100 {
-                 width: 100%;
-             }
-    
-             .max-w-690 {
-                 max-width: none;
-             }
-    
-             .mt-51 {
-                 margin-top: 0px !important;
-             }
-    
-             .truck-img {
-                 max-width: 381px;
-                 max-height: 376px;
-             }
-    
-             .jcb-img {
-                 max-width: 380px;
-                 max-height: 376px;
-             }
-    
-             .max-w-669 {
-                 max-width: 672px !important;
-             }
-         }
-    
-         @media (max-width:767.98px) {
-             .logo {
-                 max-width: 141px !important;
-             }
-    
-             .nav-btn {
-                 border-radius: 6px;
-                 padding: 11.5px 16.5px;
-             }
-    
-             .max-w-607 {
-                 max-width: 332px;
-             }
-    
-             .max-w-540 {
-                 max-width: 584px !important;
-             }
-    
-             .py-40 {
-                 padding-top: 16px;
-                 padding-bottom: 16px;
-             }
-    
-             .mt-222 {
-                 margin-top: 97px;
-             }
-    
-             .mb-199 {
-                 margin-bottom: 101px;
-             }
-    
-             .pt-148 {
-                 padding-top: 30px;
-             }
-    
-             .pt-100 {
-                 padding-top: 50px !important;
-             }
-    
-             .max-w-398 {
-                 max-width: 230px;
-             }
-    
-             .h-605 {
-                 height: 350px !important;
-             }
-    
-             .nav-circle {
-                 width: 36px;
-                 height: 36px;
-             }
-    
-             .nav-svg {
-                 width: 20px !important;
-                 height: 20px !important;
-             }
-    
-             .gap-40 {
-                 gap: 24px;
-             }
-    
-             .big-box {
-                 padding: 24px;
-             }
-    
-             .pb-126 {
-                 padding-bottom: 60px;
-             }
-    
-             .max-w-730 {
-                 max-width: 624px;
-             }
-    
-             .pt-46 {
-                 padding-top: 30px;
-             }
-    
-             .pb-46 {
-                 padding-bottom: 41px;
-             }
-    
-             .py-32 {
-                 padding-top: 24px;
-                 padding-bottom: 24px;
-             }
-    
-             .square-box {
-                 width: 308px;
-                 height: 293px;
-             }
-    
-             .pb-100 {
-                 padding-bottom: 60px;
-             }
-    
-             .max-w-290 {
-                 max-width: 217px !important;
-             }
-    
-             .max-w-496 {
-                 max-width: 217px !important;
-             }
-    
-             .gap-32 {
-                 gap: 16px !important;
-             }
-    
-             .mb_32 {
-                 margin-bottom: 16px;
-             }
-    
-             .mb-32 {
-                 margin-bottom: 24px;
-             }
-    
-             .max-h-266 {
-                 height: 286px;
-             }
-    
-             .mb-16 {
-                 margin-bottom: 10px !important;
-             }
-    
-             .max-w-590 {
-                 max-width: 590px;
-             }
-    
-             .big-box {
-                 max-width: 638px;
-             }
-    
-             .box {
-                 max-width: 456px;
-             }
-    
-             .truck-img {
-                 max-width: 250px;
-                 max-height: 375px;
-             }
-    
-             .h-863 {
-                 height: 441px;
-             }
-    
-             .jcb-img {
-                 max-width: 250px;
-                 max-height: 375px;
-             }
-    
-             .max-w-669 {
-                 max-width: 443px;
-             }
-    
-             .pb-80 {
-                 padding-bottom: 30px;
-             }
-         }
-    
-         @media (max-width:575.98px) {
-             .logo {
-                 max-width: 94px !important;
-             }
-    
-             .fs-18 {
-                 font-size: 12px;
-             }
-    
-             .max-w-730 {
-                 max-width: 333px;
-             }
-    
-             .mb-16 {
-                 margin-bottom: 8px !important;
-             }
-    
-             .nav-btn {
-                 border-radius: 6px;
-                 padding: 7.5px 13px;
-             }
-    
-             .mt-222 {
-                 margin-top: 66px;
-             }
-    
-             .mb-199 {
-                 margin-bottom: 65px;
-             }
-    
-             .py-40 {
-                 padding-top: 8px;
-                 padding-bottom: 8px;
-             }
-    
-             .pt-148 {
-                 padding-top: 16px;
-             }
-    
-             .max-w-607 {
-                 max-width: 233px;
-             }
-    
-             .lh-26 {
-                 line-height: 18px;
-             }
-    
-             .max-w-540 {
-                 max-width: 343px !important;
-             }
-    
-             .pt-100 {
-                 padding-top: 30px !important;
-             }
-    
-             .max-w-445 {
-                 max-width: 267px;
-             }
-    
-             .cross-circle,
-             .nav-circle {
-                 width: 28px !important;
-                 height: 28px !important;
-             }
-    
-             .gap-16 {
-                 gap: 8px !important;
-             }
-    
-             .menu-lines-1 {
-                 width: 7px !important;
-                 height: 2px !important;
-             }
-    
-             .menu-lines-2 {
-                 width: 10px !important;
-                 height: 2px !important;
-             }
-    
-             .menu-lines-3 {
-                 width: 7px !important;
-                 height: 2px !important;
-                 transform: translateX(3px) !important;
-             }
-    
-             .nav-svg {
-                 width: 16px !important;
-                 height: 16px !important;
-             }
-    
-             .gap-40 {
-                 gap: 14px;
-             }
-    
-             .font-size-14 {
-                 font-size: 14px !important;
-             }
-    
-             .lh-sm-22 {
-                 line-height: 22px !important;
-             }
-    
-             .big-box {
-                 padding: 16px;
-             }
-    
-             .pb-126 {
-                 padding-bottom: 29px;
-             }
-    
-             .mb-42 {
-                 margin-bottom: 16px !important;
-             }
-    
-             .pb-46 {
-                 padding-bottom: 24px;
-             }
-    
-             .py-32 {
-                 padding-top: 16px;
-                 padding-bottom: 16px;
-             }
-    
-             .pt-46 {
-                 padding-top: 21px;
-             }
-    
-             .square-box {
-                 width: 153px;
-                 height: 146px;
-             }
-    
-             .pb-100 {
-                 padding-bottom: 40px;
-             }
-    
-             .max-w-290 {
-                 max-width: 109px !important;
-             }
-    
-             .max-w-496 {
-                 max-width: 109px !important;
-             }
-    
-             .gap-32 {
-                 gap: 8px !important;
-             }
-    
-             .mb_32 {
-                 margin-bottom: 8px;
-             }
-    
-             .max-h-320 {
-                 max-height: 110px;
-             }
-    
-             .max-h-407 {
-                 max-height: 140px;
-             }
-    
-             .max-h-250 {
-                 max-height: 90px;
-             }
-    
-             .max-h-477 {
-                 max-height: 160px;
-             }
-    
-             .mb-32 {
-                 margin-bottom: 16px;
-             }
-    
-             .max-h-266 {
-                 height: 144px;
-             }
-    
-             .max-h-316 {
-                 max-height: 189px;
-             }
-    
-             .truck-img {
-                 max-width: 191px;
-                 max-height: 188px;
-             }
-    
-             .jcb-img {
-                 right: 0;
-                 max-width: 188px;
-                 max-height: 188px;
-             }
-    
-             .max-w-669 {
-                 max-width: 339px;
-             }
-    
-             .pb-80 {
-                 padding-bottom: 16px;
-             }
-    
-             .h-863 {
-                 height: 223px;
-             }
-         }
-    
-         @media (max-width:345.98px) {
-             .square-box {
-                 display: none;
-             }
-            }
+ @media (max-width:991.98px) {
+     .nav-link {
+         display: flex !important;
+         flex-direction: column;
+         background-color: black !important;
+         width: 100%;
+         min-height: 100vh;
+         position: fixed;
+         justify-content: center;
+         bottom: 0;
+         right: -100% !important;
+         top: 0%;
+         transition: all 300ms linear !important;
+         z-index: 5;
+     }
 
+     .show-navbar {
+         right: 0 !important;
+     }
 
+     .lh-43 {
+         line-height: normal;
+     }
 
+     .lh-34 {
+         line-height: normal;
+     }
 
+     .mb-42 {
+         margin-bottom: 0 !important;
+     }
 
+     .w_100 {
+         width: 100%;
+     }
 
+     .max-w-690 {
+         max-width: none;
+     }
 
+     .mt-51 {
+         margin-top: 0px !important;
+     }
 
+     .truck-img {
+         max-width: 381px;
+         max-height: 376px;
+     }
 
+     .jcb-img {
+         max-width: 380px;
+         max-height: 376px;
+     }
 
+     .max-w-669 {
+         max-width: 672px !important;
+     }
+ }
 
+ @media (max-width:767.98px) {
+     .logo {
+         max-width: 141px !important;
+     }
 
+     .nav-btn {
+         border-radius: 6px;
+         padding: 11.5px 16.5px;
+     }
 
+     .max-w-607 {
+         max-width: 332px;
+     }
 
+     .max-w-540 {
+         max-width: 584px !important;
+     }
 
+     .py-40 {
+         padding-top: 16px;
+         padding-bottom: 16px;
+     }
 
+     .mt-222 {
+         margin-top: 97px;
+     }
 
+     .mb-199 {
+         margin-bottom: 101px;
+     }
 
-                        .pb-80 {
-                            padding-bottom: 80px;
-                        }
-            
-                        .pt-148 {
-                            padding-top: 148px;
-                        }
-            
-                        .h-863 {
-                            height: 863px;
-                        }
-            
-                        .truck-img {
-                            left: 0%;
-                            max-width: 635px;
-                            max-height: 627px;
-                            filter: grayscale(100%);
-                            opacity: 50%;
-                            transition: all 200ms linear;
-                        }
-            
-                        .section-2-card:hover .truck-img {
-                            filter: grayscale(0%);
-                            opacity: 100%;
-                        }
-            
-                        .section-2-card {
-                            transition: all 200ms linear !important;
-                            cursor: pointer;
-                        }
-            
-            
-            
-            
-            
-            
-                        .jcb-img {
-                            right: 0%;
-                            max-width: 635px;
-                            max-height: 627px;
-                            filter: grayscale(100%);
-                            transition: all 200ms linear;
-                            opacity: 50%;
-                        }
-            
-            
-            
-                        .section-2-card:hover .jcb-img {
-                            filter: grayscale(0%);
-                            opacity: 100%;
-                        }
-            
-                        .max-w-390 {
-                            max-width: 390px;
-                        }
-            
-                        .mb-12 {
-                            margin-bottom: 12px;
-                        }
-            
-                        .common {
-                            text-align: right;
-                        }
-            
-                        .explore-btn-2 {
-                            padding: 14px 23.5px;
-                            border-radius: 6px;
-                        }
-            
-                        .explore-btn-2:hover {
-                            background-color: var(--white-color);
-                            color: var(--light-orange) !important;
-            
-                            svg path {
-                                stroke: var(--light-orange);
-                            }
-                        }
+     .pt-148 {
+         padding-top: 30px;
+     }
+
+     .pt-100 {
+         padding-top: 50px !important;
+     }
+
+     .max-w-398 {
+         max-width: 230px;
+     }
+
+     .h-605 {
+         height: 350px !important;
+     }
+
+     .nav-circle {
+         width: 36px;
+         height: 36px;
+     }
+
+     .nav-svg {
+         width: 20px !important;
+         height: 20px !important;
+     }
+
+     .gap-40 {
+         gap: 24px;
+     }
+
+     .big-box {
+         padding: 24px;
+     }
+
+     .pb-126 {
+         padding-bottom: 60px;
+     }
+
+     .max-w-730 {
+         max-width: 624px;
+     }
+
+     .pt-46 {
+         padding-top: 30px;
+     }
+
+     .pb-46 {
+         padding-bottom: 41px;
+     }
+
+     .py-32 {
+         padding-top: 24px;
+         padding-bottom: 24px;
+     }
+
+     .square-box {
+         width: 308px;
+         height: 293px;
+     }
+
+     .pb-100 {
+         padding-bottom: 60px;
+     }
+
+     .max-w-290 {
+         max-width: 217px !important;
+     }
+
+     .max-w-496 {
+         max-width: 217px !important;
+     }
+
+     .gap-32 {
+         gap: 16px !important;
+     }
+
+     .mb_32 {
+         margin-bottom: 16px;
+     }
+
+     .mb-32 {
+         margin-bottom: 24px;
+     }
+
+     .max-h-266 {
+         height: 286px;
+     }
+
+     .mb-16 {
+         margin-bottom: 10px !important;
+     }
+
+     .max-w-590 {
+         max-width: 590px;
+     }
+
+     .big-box {
+         max-width: 638px;
+     }
+
+     .box {
+         max-width: 456px;
+     }
+
+     .truck-img {
+         max-width: 250px;
+         max-height: 375px;
+     }
+
+     .h-863 {
+         height: 441px;
+     }
+
+     .jcb-img {
+         max-width: 250px;
+         max-height: 375px;
+     }
+
+     .max-w-669 {
+         max-width: 443px;
+     }
+
+     .pb-80 {
+         padding-bottom: 30px;
+     }
+ }
+
+ @media (max-width:575.98px) {
+     .logo {
+         max-width: 94px !important;
+     }
+
+     .fs-18 {
+         font-size: 12px;
+     }
+
+     .max-w-730 {
+         max-width: 333px;
+     }
+
+     .mb-16 {
+         margin-bottom: 8px !important;
+     }
+
+     .nav-btn {
+         border-radius: 6px;
+         padding: 7.5px 13px;
+     }
+
+     .mt-222 {
+         margin-top: 66px;
+     }
+
+     .mb-199 {
+         margin-bottom: 65px;
+     }
+
+     .py-40 {
+         padding-top: 8px;
+         padding-bottom: 8px;
+     }
+
+     .pt-148 {
+         padding-top: 16px;
+     }
+
+     .max-w-607 {
+         max-width: 233px;
+     }
+
+     .lh-26 {
+         line-height: 18px;
+     }
+
+     .max-w-540 {
+         max-width: 343px !important;
+     }
+
+     .pt-100 {
+         padding-top: 30px !important;
+     }
+
+     .max-w-445 {
+         max-width: 267px;
+     }
+
+     .cross-circle,
+     .nav-circle {
+         width: 28px !important;
+         height: 28px !important;
+     }
+
+     .gap-16 {
+         gap: 8px !important;
+     }
+
+     .menu-lines-1 {
+         width: 7px !important;
+         height: 2px !important;
+     }
+
+     .menu-lines-2 {
+         width: 10px !important;
+         height: 2px !important;
+     }
+
+     .menu-lines-3 {
+         width: 7px !important;
+         height: 2px !important;
+         transform: translateX(3px) !important;
+     }
+
+     .nav-svg {
+         width: 16px !important;
+         height: 16px !important;
+     }
+
+     .gap-40 {
+         gap: 14px;
+     }
+
+     .font-size-14 {
+         font-size: 14px !important;
+     }
+
+     .lh-sm-22 {
+         line-height: 22px !important;
+     }
+
+     .big-box {
+         padding: 16px;
+     }
+
+     .pb-126 {
+         padding-bottom: 29px;
+     }
+
+     .mb-42 {
+         margin-bottom: 16px !important;
+     }
+
+     .pb-46 {
+         padding-bottom: 24px;
+     }
+
+     .py-32 {
+         padding-top: 16px;
+         padding-bottom: 16px;
+     }
+
+     .pt-46 {
+         padding-top: 21px;
+     }
+
+     .square-box {
+         width: 153px;
+         height: 146px;
+     }
+
+     .pb-100 {
+         padding-bottom: 40px;
+     }
+
+     .max-w-290 {
+         max-width: 109px !important;
+     }
+
+     .max-w-496 {
+         max-width: 109px !important;
+     }
+
+     .gap-32 {
+         gap: 8px !important;
+     }
+
+     .mb_32 {
+         margin-bottom: 8px;
+     }
+
+     .max-h-320 {
+         max-height: 110px;
+     }
+
+     .max-h-407 {
+         max-height: 140px;
+     }
+
+     .max-h-250 {
+         max-height: 90px;
+     }
+
+     .max-h-477 {
+         max-height: 160px;
+     }
+
+     .mb-32 {
+         margin-bottom: 16px;
+     }
+
+     .max-h-266 {
+         height: 144px;
+     }
+
+     .max-h-316 {
+         max-height: 189px;
+     }
+
+     .truck-img {
+         max-width: 191px;
+         max-height: 188px;
+     }
+
+     .jcb-img {
+         right: 0;
+         max-width: 188px;
+         max-height: 188px;
+     }
+
+     .max-w-669 {
+         max-width: 339px;
+     }
+
+     .pb-80 {
+         padding-bottom: 16px;
+     }
+
+     .h-863 {
+         height: 223px;
+     }
+ }
+
+ @media (max-width:345.98px) {
+     .square-box {
+         display: none;
+     }
+ }
