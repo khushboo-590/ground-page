@@ -540,7 +540,13 @@
  .pb-100 {
      padding-bottom: 100px;
  }
-
+ .black {
+     background-image: url(/assets/images/Frame\ 65.png);
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     width: 100%;
+ }
  /* < !-- ----------------footer------------- --> */
  .pb-48 {
      padding-bottom: 48px;
