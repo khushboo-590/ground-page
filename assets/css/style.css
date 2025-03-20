@@ -594,6 +594,9 @@
 .ml-70{
     margin-left: 70px;
 }
+.mt-52{
+    margin-top: 52px;
+}
 
  @media(max-width:1499px) {
      .right {
@@ -753,6 +756,9 @@
      .right-0{
         right: 0;
      }
+         .mt-52{
+            margin-top: 0;
+         }
  }
 
 
