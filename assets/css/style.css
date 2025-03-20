@@ -750,6 +750,9 @@
      .machine-img{
         width: 100%;
      }
+     .right-0{
+        right: 0;
+     }
  }
 
 
@@ -939,7 +942,7 @@
 
  @media(max-width:576px) {
      .mb-17 {
-         margin-bottom: 17px;
+         margin-bottom: 10px;
      }
 
      .padding {
