@@ -243,8 +243,8 @@
      color: var(--light-orange);
  }
 
- .ground-btn:hover svg {
-     fill: var(--light-orange);
+ .ground-btn:hover svg path {
+     stroke: var(--light-orange);
  }
 
  .text-right {
@@ -361,12 +361,12 @@
 
  .text-2 {
      right: 20px;
-     top: 270px;
+     top: 290px;
  }
 
  .text {
      left: 20px;
-     top: 270px;
+     top: 290px;
  }
 
  /* < !-- ----------------section-2------------- --> */
@@ -530,8 +530,8 @@
      color: var(--black-color);
  }
 
- .btn-1 :hover svg path {
-     fill: #0E0E0E;
+ .btn-1:hover svg path {
+     stroke: #0E0E0E;
  }
 
  .mb-16 {
@@ -608,9 +608,7 @@
          z-index: 5;
      }
 
-     .h-863 {
-         height: 700px;
-     }
+   
 
      .show-navbar {
          right: 0 !important;
@@ -715,7 +713,7 @@
  }
 
  .h-863 {
-     height: 641px;
+     height: 541px;
  }
 
  .text-2 {
@@ -727,7 +725,13 @@
      left: 0px;
      top: 160px;
  }
-
+ 
+    .pt-148 {
+        padding-top: 70px;
+    }
+        .pb-80 {
+            padding-bottom: 50px;
+        }
  }
 
 
@@ -1095,13 +1099,8 @@
          max-width: unset;
      }
 
-     .text-2 {
-         display: none;
-     }
 
-     .text {
-         display: none;
-     }
+    
          input,
          .form-about {
              font-weight: 500;
