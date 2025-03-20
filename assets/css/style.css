@@ -616,7 +616,7 @@
          right: 0 !important;
      }
 
- }
+ 
 
  .lh-19 {
      line-height: 16px;
@@ -913,6 +913,12 @@
  .hero-section {
      min-height: 650px;
  }
+ input,.form-about {
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 22px;
+     
+ }
 
  @media(max-width:576px) {
      .mb-17 {
@@ -1096,6 +1102,13 @@
      .text {
          display: none;
      }
+         input,
+         .form-about {
+             font-weight: 500;
+             font-size: 12px;
+             line-height: 18px;
+    
+         }
  }
 
  @media (max-width:345.98px) {
