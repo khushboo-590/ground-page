@@ -658,6 +658,9 @@ textarea::placeholder {
          padding-top: 70px;
          padding-bottom: 70px;
      }
+     .max-w-607{
+        max-width: unset;
+     }
 
     
  }
@@ -821,7 +824,7 @@ textarea::placeholder {
 
 
  @media (max-width:991.98px) {
-     .nav-link {
+     /* .nav-link {
          display: flex !important;
          flex-direction: column;
          background-color: black !important;
@@ -838,7 +841,7 @@ textarea::placeholder {
 
      .show-navbar {
          right: 0 !important;
-     }
+     } */
 
      .lh-43 {
          line-height: normal;
@@ -889,9 +892,7 @@ textarea::placeholder {
          padding: 11.5px 16.5px;
      }
 
-     .max-w-607 {
-         max-width: 332px;
-     }
+   
 
      .max-w-540 {
          max-width: 584px !important;
@@ -903,7 +904,7 @@ textarea::placeholder {
      }
 
      .mt-222 {
-         margin-top: 97px;
+         margin-top: 150px;
      }
 
      .mb-199 {
@@ -1059,9 +1060,7 @@ textarea::placeholder {
          padding: 7.5px 13px;
      }
 
-     .mt-222 {
-         margin-top: 66px;
-     }
+   
 
      .mb-199 {
          margin-bottom: 65px;
@@ -1076,9 +1075,7 @@ textarea::placeholder {
          padding-top: 16px;
      }
 
-     .max-w-607 {
-         max-width: 233px;
-     }
+  
 
      .lh-26 {
          line-height: 18px;
