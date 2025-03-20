@@ -555,6 +555,11 @@
  .gap-24 {
      gap: 24px;
  }
+ .ml-150{
+    margin-left: 150px;
+ } .max-w-445{
+    max-width: 445px;
+ }
 
  .pt-24 {
      padding-top: 24px;
@@ -580,7 +585,9 @@
      padding-bottom: 100px;
  }
 
-
+.overflow-hidden{
+    overflow: hidden;
+}
 
  @media(max-width:1499px) {
      .right {
@@ -665,7 +672,11 @@
      .max-w-540 {
          max-width: none;
      }
-
+ 
+    .mx-w-690 {
+        max-width: 987px;
+        height: 266px;
+    }
      .nav-icon-box {
          margin-top: 22px;
      }
@@ -689,7 +700,9 @@
          max-width: none;
      }
 
-
+/* .justify-content-lg-start {
+    justify-content: flex-start !important;
+} */
      .truck-img {
          max-width: 381px;
          max-height: 376px;
@@ -724,6 +737,9 @@
 
      .pb-80 {
          padding-bottom: 50px;
+     }
+     .mt-51{
+        margin-top: 0;
      }
  }
 
@@ -1115,3 +1131,40 @@
          gap: 20px;
      }
  }
+
+.mx-w-398 {
+    max-width: 398px;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.mx-w-545 {
+    max-width: 545px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mx-w-690 {
+    max-width: 690px;
+    height: 266px;
+}
+
+.mx-w-445 {
+    max-width: 445px;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.mt-51 {
+    margin-top: 51px;
+}
+
+.pb-24 {
+    padding-bottom: 24px;
+}
