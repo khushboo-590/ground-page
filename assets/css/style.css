@@ -611,18 +611,7 @@
      margin-top: 52px;
  }
 
- @media(max-width:1499px) {
-     .right {
-         width: 710px;
-     }
- }
 
- @media(max-width:1199.99px) {
-     .right {
-         position: relative;
-         width: 100%;
-     }
- }
 
  @media(max-width:992px) {
      .nav-link {
