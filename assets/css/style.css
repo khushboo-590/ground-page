@@ -588,6 +588,12 @@
 .overflow-hidden{
     overflow: hidden;
 }
+.max-h-316{
+    min-height: 316px;
+}
+.ml-70{
+    margin-left: 70px;
+}
 
  @media(max-width:1499px) {
      .right {
