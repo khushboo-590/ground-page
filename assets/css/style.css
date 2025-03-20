@@ -419,7 +419,38 @@
      background: #E58E1A;
      right: 0;
  }
+.object-cover{
+    object-fit: cover;
+}
+.gird-item-1 {
+    max-width: 290px;
+    max-height: 320px;
+}
 
+.gird-item-2 {
+    max-width: 290px;
+    max-height: 407px;
+}
+
+.gird-item-3 {
+    max-width: 496px;
+    max-height: 407px;
+}
+
+.gird-item-4 {
+    max-width: 496px;
+    max-height: 320px;
+}
+
+.gird-item-5 {
+    max-width: 290px;
+    max-height: 250px;
+}
+
+.gird-item-6 {
+    max-width: 290px;
+    max-height: 477px;
+}
  .pb-100 {
      padding-bottom: 100px;
  }
@@ -495,7 +526,9 @@
      background: var(--white-color);
  }
 
-
+.position-absolute{
+    position: absolute !important;
+}
  input::placeholder,
  textarea::placeholder {
      color: var(--black-color);
@@ -737,7 +770,7 @@
 
  @media(max-width:768px) {
      .lh-43 {
-         line-height: 40px;
+         line-height: 35px;
      }
 
      .lh-34 {
@@ -1108,6 +1141,38 @@
              line-height: 18px;
     
          }
+        
+                 .gird-item-1 {
+                     max-width: 109px !important;
+                     max-height: 110px !important;
+                 }
+        
+                 .gird-item-2 {
+                     max-width: 109px;
+                     max-height: 140px;
+                 }
+        
+                 .gird-item-3 {
+                     max-width: 109px;
+                     max-height: 140px;
+                 }
+        
+                 .gird-item-4 {
+                     max-width: 109px;
+                     max-height: 110px;
+                 }
+        
+                 .gird-item-5 {
+                     max-width: 109px;
+                     max-height: 90px;
+                 }
+        
+                 .gird-item-6 {
+                     max-width: 109px;
+                     max-height: 160px;
+                 }
+        
+                 
  }
 
  @media (max-width:345.98px) {
@@ -1144,48 +1209,3 @@
 
 
 
-
-
-
- .nav-circle {
-     width: 41px;
-     height: 41px;
-     border-radius: 6px;
-     background: #FFFFFF33;
- }
-
-
-
- .gap-16 {
-     gap: 16px;
- }
-
- .cross-circle {
-     width: 40px;
-     height: 40px;
-     border-radius: 6px;
-     background: #FFFFFF33;
- }
-
- .common-class {
-     height: 5px;
-     margin-bottom: 5px;
-     background-color: white !important;
-     transition: all 300ms linear;
-     border-radius: 10px;
-     z-index: 10;
-     display: flex;
- }
-
- .menu-lines-1 {
-     width: 15px;
- }
-
- .menu-lines-2 {
-     width: 30px;
- }
-
- .menu-lines-3 {
-     width: 15px;
-     transform: translateX(15px);
- }
