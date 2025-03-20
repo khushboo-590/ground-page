@@ -279,6 +279,7 @@
  .section-2-card:hover .truck-img {
      filter: grayscale(0%);
      opacity: 100%;
+        filter: brightness(50%);
  }
 
  .section-2-card {
@@ -298,6 +299,7 @@
  .section-2-card:hover .jcb-img {
      filter: grayscale(0%);
      opacity: 100%;
+            filter: brightness(50%);
 
  }
 
@@ -522,6 +524,7 @@
      color: #FFFFFF;
      background: #0E0E0E;
      border-radius: 6px;
+     border: none;
  }
 
  .btn-1:hover {
@@ -611,7 +614,18 @@
      margin-top: 52px;
  }
 
+ @media(max-width:1499px) {
+     .right {
+         width: 710px;
+     }
+ }
 
+ @media(max-width:1199.99px) {
+     .right {
+         position: relative;
+         width: 100%; 
+     }
+ }
 
  @media(max-width:992px) {
      .nav-link {
