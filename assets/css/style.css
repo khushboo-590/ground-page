@@ -261,11 +261,10 @@
      opacity: 50%;
  }
 
-
-
  .section-2-card:hover .jcb-img {
      filter: grayscale(0%);
      opacity: 100%;
+    
  }
 
  .max-w-390 {
@@ -283,6 +282,8 @@
  .explore-btn-2 {
      padding: 14px 23.5px;
      border-radius: 6px;
+     background-color: var(--light-orange);
+     color: var(--white-color);
  }
 
  .explore-btn-2:hover {
@@ -293,6 +294,59 @@
          stroke: var(--light-orange);
      }
  }
+ .section-2-card:hover .text {
+     display: block !important;
+     /* opacity: 0; */
+    filter: unset;
+        opacity: unset;
+
+ }
+
+
+
+ .sec-2-box {
+     bottom: 0;
+     z-index: 10;
+     transition: all 200ms linear;
+ }
+
+ .section-2-box {
+     transition: all 200ms linear;
+     border-radius: 30px;
+     max-width: 360px;
+     margin-left: auto;
+     margin-right: auto;
+
+ }
+
+ /* .section-2-box:hover {
+     transform: translate3d(0px, -30px, 0px);
+
+     .max-w-259 {
+         max-width: 380px;
+     }
+
+     .text-2 {
+         font-size: 20px;
+     }
+ } */
+
+ .section-2-box:hover .sec-2-box {
+     top: 0;
+ }
+
+ .section-2-box:hover .text-2 {
+     display: block !important;
+ }
+.text-2{
+    right: 20px;
+top: 270px;
+}
+
+.text{
+    left: 20px;
+    top: 270px;
+}
 
  /* < !-- ----------------section-2------------- --> */
  .position-relative {
@@ -640,13 +694,15 @@
      .max-w-669 {
          max-width: 672px !important;
      }
+                 .h-863 {
+                     height: 641px;
  }
 
-
+}
  
 
  @media(max-width:768px) {
-     /* .lh-43 {
+     .lh-43 {
          line-height: 40px;
      }
 
@@ -668,7 +724,7 @@
 
      .lh-26 {
          line-height: 24px;
-     } */
+     }
 
 
      .gap-8 {
@@ -775,21 +831,13 @@
          max-width: 590px;
      }
 
-     .big-box {
-         max-width: 638px;
-     }
-
-     .box {
-         max-width: 456px;
-     }
-
      .truck-img {
          max-width: 250px;
          max-height: 375px;
      }
 
      .h-863 {
-         height: 441px;
+         height: 341px;
      }
 
      .jcb-img {
@@ -815,14 +863,10 @@
      .padding {
          padding: 15px;
      }
-
-
      .py-100 {
          padding-top: 50px;
          padding-bottom: 50px;
      }
-
-
      .max-w-730 {
          max-width: 333px;
      }
@@ -830,10 +874,6 @@
      .mb-16 {
          margin-bottom: 8px !important;
      }
-
-
-
-
      .mb-199 {
          margin-bottom: 65px;
      }
@@ -857,17 +897,10 @@
      .max-w-445 {
          max-width: 267px;
      }
-
-
-
      .gap-40 {
          gap: 14px;
      }
-    
 
-     .big-box {
-         padding: 16px;
-     }
 
      .pb-126 {
          padding-bottom: 29px;
@@ -969,8 +1002,6 @@
         max-width: unset;
      }
  }
-
-
 
  @media (max-width:345.98px) {
      .square-box {
