@@ -540,6 +540,7 @@
  .pb-100 {
      padding-bottom: 100px;
  }
+
  .black {
      background-image: url(/assets/images/Frame\ 65.png);
      background-size: cover;
@@ -547,10 +548,12 @@
      background-repeat: no-repeat;
      width: 100%;
  }
+
  .mx-w-690 {
      max-width: 690px;
      height: 266px;
  }
+
  /* < !-- ----------------footer------------- --> */
  .pb-48 {
      padding-bottom: 48px;
@@ -559,10 +562,13 @@
  .gap-24 {
      gap: 24px;
  }
- .ml-150{
-    margin-left: 150px;
- } .max-w-445{
-    max-width: 445px;
+
+ .ml-150 {
+     margin-left: 150px;
+ }
+
+ .max-w-445 {
+     max-width: 445px;
  }
 
  .pt-24 {
@@ -589,18 +595,21 @@
      padding-bottom: 100px;
  }
 
-.overflow-hidden{
-    overflow: hidden;
-}
-.max-h-316{
-    min-height: 316px;
-}
-.ml-70{
-    margin-left: 70px;
-}
-.mt-52{
-    margin-top: 52px;
-}
+ .overflow-hidden {
+     overflow: hidden;
+ }
+
+ .max-h-316 {
+     min-height: 316px;
+ }
+
+ .ml-70 {
+     margin-left: 70px;
+ }
+
+ .mt-52 {
+     margin-top: 52px;
+ }
 
  @media(max-width:1499px) {
      .right {
@@ -685,11 +694,12 @@
      .max-w-540 {
          max-width: none;
      }
- 
-    .mx-w-690 {
-        max-width: 987px;
-        height: 266px;
-    }
+
+     .mx-w-690 {
+         max-width: 987px;
+         height: 266px;
+     }
+
      .nav-icon-box {
          margin-top: 22px;
      }
@@ -713,7 +723,7 @@
          max-width: none;
      }
 
-/* .justify-content-lg-start {
+     /* .justify-content-lg-start {
     justify-content: flex-start !important;
 } */
      .truck-img {
@@ -751,19 +761,23 @@
      .pb-80 {
          padding-bottom: 50px;
      }
-     .mt-51{
-        margin-top: 0;
+
+     .mt-51 {
+         margin-top: 0;
      }
-     .machine-img{
-        width: 100%;
+
+     .machine-img {
+         width: 100%;
      }
-     .right-0{
-        right: 0;
+
+     .right-0 {
+         right: 0;
      }
-         .mt-52{
-            margin-top: 0;
-         }
-                
+
+     .mt-52 {
+         margin-top: 0;
+     }
+
  }
 
 
@@ -949,9 +963,7 @@
          line-height: 22px;
 
      }
-          .mx-w-690 {
-              height: 200px;
-          }
+
  }
 
  @media(max-width:576px) {
@@ -998,7 +1010,7 @@
          padding-top: 16px;
      }
 
-   
+
 
      .pt-100 {
          padding-top: 30px !important;
@@ -1025,6 +1037,9 @@
          gap: 14px;
      }
 
+     .mx-w-690 {
+         max-height: 200px;
+     }
 
      .pb-126 {
          padding-bottom: 29px;
@@ -1144,8 +1159,9 @@
      .mt-32 {
          margin-top: 17px;
      }
-     .mt-51{
-        margin-top: 2px;
+
+     .mt-51 {
+         margin-top: 2px;
      }
  }
 
@@ -1159,39 +1175,39 @@
      }
  }
 
-.mx-w-398 {
-    max-width: 398px;
-}
+ .mx-w-398 {
+     max-width: 398px;
+ }
 
-.left-0 {
-    left: 0;
-}
+ .left-0 {
+     left: 0;
+ }
 
-.mx-w-545 {
-    max-width: 545px;
-}
+ .mx-w-545 {
+     max-width: 545px;
+ }
 
-.pt-100 {
-    padding-top: 100px;
-}
+ .pt-100 {
+     padding-top: 100px;
+ }
 
-.mx-w-690 {
-    max-width: 690px;
-    height: 266px;
-}
+ .mx-w-690 {
+     max-width: 690px;
+     height: 266px;
+ }
 
-.mx-w-445 {
-    max-width: 445px;
-}
+ .mx-w-445 {
+     max-width: 445px;
+ }
 
-.right-0 {
-    right: 0;
-}
+ .right-0 {
+     right: 0;
+ }
 
-.mt-51 {
-    margin-top: 51px;
-}
+ .mt-51 {
+     margin-top: 51px;
+ }
 
-.pb-24 {
-    padding-bottom: 24px;
-}
+ .pb-24 {
+     padding-bottom: 24px;
+ }
